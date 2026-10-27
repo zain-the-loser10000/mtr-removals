@@ -1,0 +1,9 @@
+node_modules/
+frontend/dist/
+frontend/dist-ssr/
+.env
+.env.local
+.vercel/
+*.log
+.DS_Store
+dist-preview/

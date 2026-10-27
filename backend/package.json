@@ -1,0 +1,21 @@
+{
+  "name": "mtr-removals-backend",
+  "version": "2.0.0",
+  "private": true,
+  "description": "MTR Removals API: saves quote enquiries to Postgres and emails them to the business. Runs as Vercel serverless functions.",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/dev-server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "nodemailer": "^6.9.16",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "express": "^4.21.2"
+  }
+}
